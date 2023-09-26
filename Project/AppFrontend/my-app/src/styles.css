@@ -1,0 +1,147 @@
+body{
+  padding: 15px;
+}
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f8f9fd;
+  }
+  
+  .home-container{
+    width:100%;
+    text-align: left;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="password"],
+  input[type="email"]
+  {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .custom-select{
+    height: 29px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  input[type="checkbox"]{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    /* display:flex; */
+    /* justify-content: left; */
+    /* the fuck */
+  }
+  .posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.song-name {
+  font-size: 1.2em;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #f8f9fd;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #ccc;
+}
+.post-card {
+    width: 30%;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+    text-align: center;
+}
+
+.post-title {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+  
+  input[type="submit"],
+  button {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background: #6cf0c2;
+  }
+  
+  .button-container {
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+  }
+  .logout-container{
+    padding: 0px 10px;
+    display: inline-block;
+    /* display: flex; */
+    /* justify-content: end; */
+    /* padding:10px; */
+  }
+  .view-songs-container{
+    display: inline-block;
+    /* display: flex; */
+    /* justify-content:left; */
+    /* padding:10px; */
+  }
+  
+  .song-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.song-info-name, .song-info-music-genre, .song-info-year-of-release, .song-info-music-type {
+    font-size: 1.2em;
+    margin: 5px;
+    padding: 10px;
+    background-color: #f8f9fd;
+    border-radius: 5px;
+    box-shadow: 2px 2px
+}
+  .login-form {
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
